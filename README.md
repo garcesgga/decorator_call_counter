@@ -1,9 +1,9 @@
-# Call Counter Decorator
+A decorator in Python is used to **add extra behavior to a function without changing its original code**, like wrapping it with logging, timing, or access control.
 
+# Call Counter Decorator
 A simple Python decorator that counts how many times a function has been called and logs the count.
 
 # Example
-
 ```python
 def call_counter(func):
     counter = 0
